@@ -5,7 +5,7 @@ pipeline
 
         stage("Print"){
 
-        steps(echo "Hello Mc")
+        steps{echo "Hello Mc"}
 
         }
     }
